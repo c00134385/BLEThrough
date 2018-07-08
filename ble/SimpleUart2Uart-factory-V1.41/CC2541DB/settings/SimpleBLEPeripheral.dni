@@ -1,0 +1,34 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-255332319
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\Source\SimpleBLEPeripheral_Main.c}.90.3" 1 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\Source\SimpleBLEPeripheral_Main.c}.139.3" 1 0 0 0 "" 0 ""
+Count=2
+[ChipconEmu]
+Stop timers on halt=1
+Leave target running=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Aliases]
+A0=_ "C:\Texas Instruments\BLE-CC254x-1.4.2.2Uart2Uart\Projects\ble\SimpleOneFW\Source\SimpleBLEPeripheral_Main.c" ""
+Count=1
+SuppressDialog=0
