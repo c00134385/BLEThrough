@@ -1891,8 +1891,9 @@ bool simpleBLE_MT_CMD_Handle(uint8 *pBuffer, uint16 length)
     */
 
     uint8 onoff;
-    if((length >= 7) && str_cmp(pBuffer, "AT+BTN", 6))
+    if((length >= 8) && str_cmp(pBuffer, "AT+MCU+", 7))
     {
+        NPI_WriteTransport("*", 1);
         NPI_WriteTransport((uint8*)pBuffer, length);
         if(pBuffer[length - 1] != '#')
         {

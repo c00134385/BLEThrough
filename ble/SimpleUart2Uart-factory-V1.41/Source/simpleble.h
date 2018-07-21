@@ -30,7 +30,7 @@ extern "C"
 #define     VERSION     "v2.0"  // for etoh, 2015/9/9
 
 //设备名称的字符长度 <= 12
-#define DEV_NAME_DEFAULT                           "Amomcu"
+#define DEV_NAME_DEFAULT                           "Amomcu02"
 
 
 //设备名称的字符长度 <= 12
